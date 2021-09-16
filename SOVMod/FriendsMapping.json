@@ -1,0 +1,22 @@
+﻿{
+  "Relationships": [
+    { "Pair": [ "Alex", "Haley" ] },
+    { "Pair": [ "Elliott", "Leah" ] },
+    { "Pair": [ "Elliott", "Willy" ] },
+    { "Pair": [ "Harvey", "Maru" ] },
+    { "Pair": [ "Sam", "Abigail" ] },
+    { "Pair": [ "Sam", "Penny" ] },
+    { "Pair": [ "Sam", "Sebastian" ] },
+    { "Pair": [ "Sebastian", "Abigail" ] },
+    { "Pair": [ "Emily", "Sandy" ] },
+    { "Pair": [ "Maru", "Penny" ] },
+    { "Pair": [ "Caroline", "Jodi" ] },
+    { "Pair": [ "Gus", "Pam" ] },
+    { "Pair": [ "Jas", "Leo" ] },
+    { "Pair": [ "Jas", "Vincent" ] },
+    { "Pair": [ "Leo", "Linus" ] },
+    { "Pair": [ "Leo", "Vincent" ] },
+    { "Pair": [ "Lewis", "Marnie" ] },
+    { "Pair": [ "Linus", "Wizard" ] }
+  ]
+}

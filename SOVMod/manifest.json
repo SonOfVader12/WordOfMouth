@@ -1,0 +1,10 @@
+﻿{
+  "Name": "SOV Test Mod",
+  "Author": "SonOfVader",
+  "Version": "1.0.0",
+  "Description": "blah",
+  "UniqueID": "SonOfVader.SOVMod",
+  "EntryDll": "SOVMod.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}
