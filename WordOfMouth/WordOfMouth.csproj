@@ -7,8 +7,8 @@
     <ProjectGuid>{15357DB4-3CE4-4D9E-8FDB-B9126F7BB9AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SOVMod</RootNamespace>
-    <AssemblyName>SOVMod</AssemblyName>
+    <RootNamespace>WordOfMouth</RootNamespace>
+    <AssemblyName>WordOfMouth</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mappers.cs" />
+    <Compile Include="ModConfig.cs" />
     <Compile Include="ModEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

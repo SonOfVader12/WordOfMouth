@@ -7,13 +7,15 @@ using StardewValley;
 using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
-namespace SOVMod
+
+namespace WordOfMouth
 {
     public class ModEntry : Mod
     {
         private Dictionary<string, int> _StartOfDayFriendShip;
         private RelationMapper _friendsMap;
         private RelationMapper _familyMap;
+        private ModConfig _Config;
         public override void Entry(IModHelper helper)
         {           
             this.Helper.Events.GameLoop.SaveLoaded += SetBaseDailyFriendShipLevel;
@@ -21,6 +23,7 @@ namespace SOVMod
             _StartOfDayFriendShip = new Dictionary<string, int>();
             _familyMap = this.Helper.Data.ReadJsonFile<RelationMapper>("FamilyMapping.json");
             _friendsMap = this.Helper.Data.ReadJsonFile<RelationMapper>("FriendsMapping.json");
+            _Config = this.Helper.ReadConfig<ModConfig>();
         }
 
         private void ApplyWordOfMouth(object sender, DayEndingEventArgs e)
@@ -96,7 +99,7 @@ namespace SOVMod
 
         private int GetWordOfMouthValue(int friendShipLevel, int oldLevel)
         {
-            return (friendShipLevel - oldLevel) / 3;
+            return (int)((double)(friendShipLevel - oldLevel) * _Config.PercentageOfFriendship);
         }
 
         private void SetBaseDailyFriendShipLevel(object sender, SaveLoadedEventArgs e)
