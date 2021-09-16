@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordOfMouth", "SOVMod\WordOfMouth.csproj", "{15357DB4-3CE4-4D9E-8FDB-B9126F7BB9AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordOfMouth", "WordOfMouth\WordOfMouth.csproj", "{15357DB4-3CE4-4D9E-8FDB-B9126F7BB9AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
